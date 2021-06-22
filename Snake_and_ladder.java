@@ -51,8 +51,8 @@ class gamePlayer {
         gamePlayer play1 = new gamePlayer();
         com.bl.basic.gamePlayer play2 = new gamePlayer();
         while (play1.endGame <= 100 && play2.endGame <= 100) {
-            play1.gameStart("Player 1");
-            play2.gameStart("Player 2");
+            play1.gameStart("Player1");
+            play2.gameStart("Player2");
         }
         if (play1.endGame < play2.endGame) {
             System.out.println("Congratulation player 2 you have won the game.");
