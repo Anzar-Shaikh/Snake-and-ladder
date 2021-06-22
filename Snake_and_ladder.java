@@ -45,6 +45,9 @@ class gamePlayer {
 public class Snake_and_ladder {
     public static void main(String[] args) {
         System.out.println("welcome to snake & ladder game");
+        gamePlayer play1 = new com.bl.basic.gamePlayer();
+        play1.gameStart("Player 1");
+        System.out.println("Congratulation Player1 completed the game in " + play1.attempts + " attempts.");
         
     }
 }
